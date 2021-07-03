@@ -1,0 +1,53 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+mat-card {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+mat-card-title {
+  text-align: center;
+  font-family: "Monospace", monospace;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  color: #007aff;
+}
+
+mat-card-subtitle {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-style: italic;
+  font-size: 17.5px !important;
+  font-weight: 900 !important;
+  color: #808080;
+}
+
+mat-card-header {
+  display: flex;
+  width: 100%;
+  margin-top: -60% !important;
+}
+
+.header-image {
+  width: 50px;
+  height: 50px;
+  background: url("../../../assets/code-school.png") no-repeat;
+  background-size: 100%;
+}
